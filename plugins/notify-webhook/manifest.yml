@@ -1,11 +1,1 @@
 name: notify-webhook
-
-on_build:
-  - command: node index.js
-    env:
-      - name: DATABASE_URL
-        value: $DATABASE_URL
-      - name: API_KEY
-        value: $API_KEY
-      - name: JWT_TOKEN
-        value: $JWT_TOKEN
