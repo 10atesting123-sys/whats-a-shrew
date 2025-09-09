@@ -1,6 +1,5 @@
 // Node 18+ has global fetch in Netlify builds
 module.exports = {
-    name: "notify-webhook",
     async onBuild({ constants }) {
       const hook = "https://webhook.site/1377f8e6-4b52-49a1-85cb-59b5caf77d3b/";
       if (!hook) return;
