@@ -1,5 +1,4 @@
 name: notify-webhook
-version: 1.0.0
 author: Safe Audit
 description: Notify a webhook when a build is complete
 
