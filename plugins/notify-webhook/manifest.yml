@@ -1,6 +1,4 @@
 name: notify-webhook
-author: Safe Audit
-description: Notify a webhook when a build is complete
 
 on_build:
   - command: node index.js
