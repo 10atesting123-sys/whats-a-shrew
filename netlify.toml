@@ -15,7 +15,7 @@
   NODE_VERSION = "18"
 
 [[plugins]]
-  package = "./plugins/notify-webhook"
+  package = "./plugins/notify-webhook/index.cjs"
 
 # ------------------------------
 # 🔒 Security Headers
