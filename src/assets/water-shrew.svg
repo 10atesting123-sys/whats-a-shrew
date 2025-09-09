@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <!-- Water background -->
+  <rect x="0" y="80" width="200" height="70" fill="#4682B4"/>
+  
+  <!-- Water ripples -->
+  <ellipse cx="50" cy="120" rx="20" ry="3" fill="#5F9EA0" opacity="0.6"/>
+  <ellipse cx="150" cy="110" rx="15" ry="2" fill="#5F9EA0" opacity="0.6"/>
+  
+  <!-- Water Shrew body -->
+  <ellipse cx="100" cy="90" rx="35" ry="18" fill="#2F4F4F"/>
+  
+  <!-- Head -->
+  <ellipse cx="100" cy="75" rx="22" ry="16" fill="#363636"/>
+  
+  <!-- Pointed snout -->
+  <ellipse cx="88" cy="72" rx="15" ry="6" fill="#1C1C1C"/>
+  <ellipse cx="80" cy="71" rx="8" ry="4" fill="#000"/>
+  
+  <!-- Eyes -->
+  <circle cx="95" cy="74" r="2.5" fill="#000"/>
+  <circle cx="105" cy="74" r="2.5" fill="#000"/>
+  <circle cx="96" cy="73" r="0.8" fill="#FFF"/>
+  <circle cx="106" cy="73" r="0.8" fill="#FFF"/>
+  
+  <!-- Ears -->
+  <ellipse cx="88" cy="68" rx="3" ry="5" fill="#1C1C1C"/>
+  <ellipse cx="112" cy="68" rx="3" ry="5" fill="#1C1C1C"/>
+  
+  <!-- Swimming legs with fringed feet -->
+  <ellipse cx="85" cy="100" rx="4" ry="8" fill="#1C1C1C"/>
+  <ellipse cx="115" cy="100" rx="4" ry="8" fill="#1C1C1C"/>
+  
+  <!-- Fringed feet for swimming -->
+  <path d="M82 105 L78 108 L80 110 L84 107" fill="#000"/>
+  <path d="M118 105 L122 108 L120 110 L116 107" fill="#000"/>
+  
+  <!-- Tail acting as rudder -->
+  <path d="M125 88 Q140 85 150 92 Q155 100 145 105 Q135 110 130 100" fill="#1C1C1C"/>
+  
+  <!-- Water-repellent fur texture -->
+  <circle cx="92" cy="85" r="1" fill="#4F4F4F" opacity="0.7"/>
+  <circle cx="108" cy="88" r="1" fill="#4F4F4F" opacity="0.7"/>
+  <circle cx="95" cy="95" r="1" fill="#4F4F4F" opacity="0.7"/>
+  
+  <!-- Whiskers -->
+  <line x1="73" y1="71" x2="65" y2="69" stroke="#FFF" stroke-width="0.8"/>
+  <line x1="73" y1="75" x2="60" y2="75" stroke="#FFF" stroke-width="0.8"/>
+  
+  <!-- Text label -->
+  <text x="100" y="20" text-anchor="middle" fill="#1C1C1C" font-family="Arial" font-size="14" font-weight="bold">Water Shrew</text>
+  <text x="100" y="35" text-anchor="middle" fill="#2F4F4F" font-family="Arial" font-size="10">Semi-aquatic with fringed feet</text>
+</svg>

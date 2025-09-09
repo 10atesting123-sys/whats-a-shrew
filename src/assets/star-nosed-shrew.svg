@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="150" fill="#F0F8E8"/>
+  
+  <!-- Ground -->
+  <ellipse cx="100" cy="130" rx="70" ry="8" fill="#8B4513"/>
+  
+  <!-- Star-nosed Shrew body -->
+  <ellipse cx="100" cy="100" rx="35" ry="20" fill="#4A4A4A"/>
+  
+  <!-- Head -->
+  <ellipse cx="100" cy="80" rx="22" ry="18" fill="#5A5A5A"/>
+  
+  <!-- The famous star-shaped nose with 22 appendages -->
+  <g id="star-nose">
+    <!-- Central nose -->
+    <circle cx="85" cy="75" r="4" fill="#FF69B4"/>
+    
+    <!-- Star appendages (22 fleshy tentacles) -->
+    <ellipse cx="78" cy="70" rx="6" ry="2" fill="#FF1493" transform="rotate(-30 78 70)"/>
+    <ellipse cx="75" cy="73" rx="6" ry="2" fill="#FF1493" transform="rotate(-45 75 73)"/>
+    <ellipse cx="75" cy="77" rx="6" ry="2" fill="#FF1493" transform="rotate(-60 75 77)"/>
+    <ellipse cx="78" cy="80" rx="6" ry="2" fill="#FF1493" transform="rotate(-75 78 80)"/>
+    <ellipse cx="82" cy="82" rx="6" ry="2" fill="#FF1493" transform="rotate(-90 82 82)"/>
+    <ellipse cx="88" cy="82" rx="6" ry="2" fill="#FF1493" transform="rotate(-105 88 82)"/>
+    <ellipse cx="92" cy="80" rx="6" ry="2" fill="#FF1493" transform="rotate(-120 92 80)"/>
+    <ellipse cx="95" cy="77" rx="6" ry="2" fill="#FF1493" transform="rotate(-135 95 77)"/>
+    <ellipse cx="95" cy="73" rx="6" ry="2" fill="#FF1493" transform="rotate(-150 95 73)"/>
+    <ellipse cx="92" cy="70" rx="6" ry="2" fill="#FF1493" transform="rotate(-165 92 70)"/>
+    <ellipse cx="88" cy="68" rx="6" ry="2" fill="#FF1493" transform="rotate(180 88 68)"/>
+    
+    <!-- Additional smaller appendages -->
+    <ellipse cx="80" cy="68" rx="4" ry="1.5" fill="#FF69B4" transform="rotate(-15 80 68)"/>
+    <ellipse cx="78" cy="75" rx="4" ry="1.5" fill="#FF69B4" transform="rotate(-75 78 75)"/>
+    <ellipse cx="85" cy="84" rx="4" ry="1.5" fill="#FF69B4" transform="rotate(-120 85 84)"/>
+    <ellipse cx="90" cy="68" rx="4" ry="1.5" fill="#FF69B4" transform="rotate(165 90 68)"/>
+  </g>
+  
+  <!-- Eyes -->
+  <circle cx="95" cy="77" r="2" fill="#000"/>
+  <circle cx="105" cy="77" r="2" fill="#000"/>
+  <circle cx="96" cy="76" r="0.7" fill="#FFF"/>
+  <circle cx="106" cy="76" r="0.7" fill="#FFF"/>
+  
+  <!-- Ears -->
+  <ellipse cx="88" cy="68" rx="3" ry="4" fill="#4A4A4A"/>
+  <ellipse cx="112" cy="68" rx="3" ry="4" fill="#4A4A4A"/>
+  
+  <!-- Legs -->
+  <ellipse cx="85" cy="115" rx="4" ry="10" fill="#2F2F2F"/>
+  <ellipse cx="115" cy="115" rx="4" ry="10" fill="#2F2F2F"/>
+  
+  <!-- Tail -->
+  <path d="M130 95 Q145 90 155 98 Q160 108 150 113 Q140 118 135 108" fill="#4A4A4A"/>
+  
+  <!-- Text label -->
+  <text x="100" y="20" text-anchor="middle" fill="#2F2F2F" font-family="Arial" font-size="14" font-weight="bold">Star-nosed Mole</text>
+  <text x="100" y="35" text-anchor="middle" fill="#696969" font-family="Arial" font-size="10">22 fleshy nose appendages</text>
+</svg>

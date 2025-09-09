@@ -1,0 +1,52 @@
+# netlify.toml
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# ✅ React Router / SPA support
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# 🔧 Build environment
+[build.environment]
+  NODE_VERSION = "18"
+
+# ------------------------------
+# 🔒 Security Headers
+# ------------------------------
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' https:; frame-ancestors 'none';"
+
+# ------------------------------
+# ⚡ Performance / Caching Headers
+# ------------------------------
+
+# Cache static assets aggressively
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache images aggressively
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Don’t cache HTML (always fetch latest)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="150" fill="#E6F3E6"/>
+  
+  <!-- Ground -->
+  <ellipse cx="100" cy="130" rx="80" ry="10" fill="#8B4513"/>
+  
+  <!-- Common Shrew body -->
+  <ellipse cx="100" cy="100" rx="40" ry="22" fill="#8B4513"/>
+  
+  <!-- Head -->
+  <ellipse cx="100" cy="80" rx="25" ry="20" fill="#A0522D"/>
+  
+  <!-- Distinctive pointed snout -->
+  <ellipse cx="85" cy="75" rx="18" ry="8" fill="#654321"/>
+  <ellipse cx="75" cy="73" rx="10" ry="5" fill="#4A4A4A"/>
+  
+  <!-- Eyes -->
+  <circle cx="95" cy="78" r="3" fill="#000"/>
+  <circle cx="105" cy="78" r="3" fill="#000"/>
+  <circle cx="96" cy="77" r="1" fill="#FFF"/>
+  <circle cx="106" cy="77" r="1" fill="#FFF"/>
+  
+  <!-- Ears -->
+  <ellipse cx="85" cy="70" rx="4" ry="6" fill="#654321"/>
+  <ellipse cx="115" cy="70" rx="4" ry="6" fill="#654321"/>
+  
+  <!-- Legs -->
+  <ellipse cx="80" cy="115" rx="5" ry="12" fill="#4A4A4A"/>
+  <ellipse cx="95" cy="118" rx="5" ry="12" fill="#4A4A4A"/>
+  <ellipse cx="105" cy="118" rx="5" ry="12" fill="#4A4A4A"/>
+  <ellipse cx="120" cy="115" rx="5" ry="12" fill="#4A4A4A"/>
+  
+  <!-- Tail -->
+  <path d="M135 105 Q155 100 165 110 Q170 120 160 125 Q150 130 140 120" fill="#654321"/>
+  
+  <!-- Whiskers -->
+  <line x1="68" y1="73" x2="55" y2="70" stroke="#333" stroke-width="0.8"/>
+  <line x1="68" y1="78" x2="50" y2="78" stroke="#333" stroke-width="0.8"/>
+  <line x1="68" y1="83" x2="55" y2="86" stroke="#333" stroke-width="0.8"/>
+  
+  <!-- Text label -->
+  <text x="100" y="20" text-anchor="middle" fill="#2F4F2F" font-family="Arial" font-size="14" font-weight="bold">Common Shrew</text>
+  <text x="100" y="35" text-anchor="middle" fill="#696969" font-family="Arial" font-size="10">Brown fur with pointed snout</text>
+</svg>

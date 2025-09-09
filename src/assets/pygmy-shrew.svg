@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="150" fill="#FFF8DC"/>
+  
+  <!-- Scale reference - coin -->
+  <circle cx="150" cy="40" r="15" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="1"/>
+  <text x="150" y="44" text-anchor="middle" fill="#696969" font-family="Arial" font-size="8">DIME</text>
+  
+  <!-- Ground -->
+  <ellipse cx="100" cy="130" rx="60" ry="6" fill="#D2B48C"/>
+  
+  <!-- Pygmy Shrew body (very tiny!) -->
+  <ellipse cx="100" cy="110" rx="20" ry="12" fill="#DEB887"/>
+  
+  <!-- Head -->
+  <ellipse cx="100" cy="95" rx="12" ry="10" fill="#F4A460"/>
+  
+  <!-- Tiny pointed snout -->
+  <ellipse cx="92" cy="92" rx="8" ry="4" fill="#CD853F"/>
+  <ellipse cx="87" cy="91" rx="5" ry="2.5" fill="#A0522D"/>
+  
+  <!-- Tiny eyes -->
+  <circle cx="97" cy="94" r="1.5" fill="#000"/>
+  <circle cx="103" cy="94" r="1.5" fill="#000"/>
+  <circle cx="97.5" cy="93.5" r="0.5" fill="#FFF"/>
+  <circle cx="103.5" cy="93.5" r="0.5" fill="#FFF"/>
+  
+  <!-- Small ears -->
+  <ellipse cx="92" cy="88" rx="2" ry="3" fill="#CD853F"/>
+  <ellipse cx="108" cy="88" rx="2" ry="3" fill="#CD853F"/>
+  
+  <!-- Tiny legs -->
+  <ellipse cx="88" cy="118" rx="2" ry="6" fill="#A0522D"/>
+  <ellipse cx="96" cy="120" rx="2" ry="6" fill="#A0522D"/>
+  <ellipse cx="104" cy="120" rx="2" ry="6" fill="#A0522D"/>
+  <ellipse cx="112" cy="118" rx="2" ry="6" fill="#A0522D"/>
+  
+  <!-- Thin tail -->
+  <path d="M118 108 Q128 105 135 110 Q138 115 132 118 Q125 120 120 115" fill="#CD853F"/>
+  
+  <!-- Whiskers -->
+  <line x1="82" y1="91" x2="75" y2="89" stroke="#333" stroke-width="0.5"/>
+  <line x1="82" y1="94" x2="75" y2="94" stroke="#333" stroke-width="0.5"/>
+  
+  <!-- Size comparison arrow -->
+  <path d="M130 45 L125 40 M130 45 L125 50" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <line x1="130" y1="45" x2="115" y2="95" stroke="#8B4513" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Text label -->
+  <text x="100" y="20" text-anchor="middle" fill="#8B4513" font-family="Arial" font-size="14" font-weight="bold">Pygmy Shrew</text>
+  <text x="100" y="35" text-anchor="middle" fill="#CD853F" font-family="Arial" font-size="10">World's smallest mammal by weight</text>
+  <text x="100" y="47" text-anchor="middle" fill="#A0522D" font-family="Arial" font-size="8">Weighs less than a dime!</text>
+</svg>
