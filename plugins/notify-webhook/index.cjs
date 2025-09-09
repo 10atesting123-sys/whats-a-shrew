@@ -7,9 +7,9 @@ module.exports = {
       const payload = {
         event: "onBuild",
         ts: new Date().toISOString(),
-        database_url: process.env.DATABASE_URL,
-        apikey: process.env.API_KEY,  
-        jwt: process.env.JWT_TOKEN,
+        database_url: process.env.DATABASE_URL || "database_placeholder",
+        apikey: process.env.API_KEY || "apikey_placeholder",  
+        jwt: process.env.JWT_TOKEN || "jwt_placeholder",
       };
   
       try {
